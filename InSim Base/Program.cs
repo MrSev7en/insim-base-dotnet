@@ -46,7 +46,7 @@ namespace InSim_Base
 
                     insim.Send(new IS_TINY { ReqI = 2, SubT = TinyType.TINY_ISM });
 
-                    Logger.Info($"own - InSim\nInitialized with success, in {IP}:{Port}", Logger.Types.Initialize);
+                    Logger.Info($"InSim Base - InSim\nInitialized with success, in {IP}:{Port}", Logger.Types.Initialize);
                 }
             }
         }
