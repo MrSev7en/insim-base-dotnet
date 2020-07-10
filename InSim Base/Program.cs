@@ -52,11 +52,3 @@ namespace InSim_Base
         }
     }
 }
-
-/*
-NikoZinhoHoje às 14:28
-Sim
-Eu tenho A Base dele '-'
-Me Manda Ai Fazendo Favor vc mandou pro lobinho? 
-Num entendi muito bem /sr
-*/
