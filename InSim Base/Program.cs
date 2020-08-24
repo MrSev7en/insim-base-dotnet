@@ -41,7 +41,7 @@ namespace InSim_Base
                         Flags = InSimFlags.ISF_MSO_COLS | InSimFlags.ISF_MCI,
                         Interval = 1000,
                         Prefix = '!',
-                        IName = "^0L^7T^1R"
+                        IName = "^0L^7I^0B"
                     });
 
                     insim.Send(new IS_TINY { ReqI = 2, SubT = TinyType.TINY_ISM });
