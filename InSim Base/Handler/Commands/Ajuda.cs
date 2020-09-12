@@ -7,7 +7,7 @@ namespace InSim_Base.Handler.Commands
     {
         public Ajuda(string[] Args, Connections Conn)
         {
-            Interface.Message.Send("^6Precisa de ajuda? ^7lfsteam.net", Conn.UCID);
+            Interface.Message.Send("^6» ^7Precisa de ajuda? ^6lfsteam.net", Conn.UCID);
         }
     }
 }
