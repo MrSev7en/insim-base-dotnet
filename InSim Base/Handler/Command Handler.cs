@@ -1,4 +1,5 @@
-﻿using InSim_Base.Handler.Commands;
+using InSim_Base.Handler.Commands;
+using InSim_Base.Source.Getaway;
 using InSim_Base.Source.Handshake;
 using System;
 
@@ -26,8 +27,9 @@ namespace InSim_Base.Handler
 
                     default:
                         {
-                            throw new Exception();
+                            Interface.Message.Send("^1» ^7Comando inválido, use ^1!ajuda ^7para obter ajuda.", Conn.UCID);
                         }
+                        break;
                 }
             }
         }
