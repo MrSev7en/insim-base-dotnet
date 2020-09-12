@@ -136,6 +136,23 @@ namespace InSim_Base.Source.Getaway
                 }
                 catch (InSimException IEx) { Logger.Error(IEx.Message, Logger.Types.BFN); }
             }
+            
+            /// <summary>
+            /// Remove all buttons of screen.
+            /// </summary>
+            /// <param name="UCID">Unique id of user to remove button.</param>
+            public static void Remove(byte UCID)
+            {
+                for (byte i = 0; i < 235; i++)
+                {
+                    Program.insim.Send(new IS_BFN
+                    {
+                        ClickID = i,
+                        UCID = UCID,
+                        ReqI = 2
+                    });
+                }
+            }
         }
     }
 }
