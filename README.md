@@ -19,6 +19,6 @@ This is the best Live for Speed InSim Base, with handlers for everything.
 ## License
 This project particularly don't have restrictions. Community help will be great, if you wanna help me with your modification, send in [Pull requests](https://github.com/MrSev7en/lfs-insim-base/pulls).
 
-But the license is [MIT](https://github.com/MrSev7en/lfs-insim-base/blob/main/LICENSE), check clicking in link.
+But the license is [MIT](https://github.com/MrSev7en/lfs-insim-base/blob/master/LICENSE), check clicking in link.
 
 If you wanna share this, please give me copyright.
