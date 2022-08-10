@@ -1,24 +1,28 @@
 # Live for Speed - InSim Base
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/MrSev7en/lfs-insim-base)
+<div>
+  <p>
+    <a href="https://github.com/MrSev7en/lfs-insim-base">
+      <img src="https://badgen.net/badge/build/passing/green">
+    </a>
+  </p>
+</div>
 
-## What Is
+🚗 InSim Base is an [Live for Speed](https://en.wikipedia.org/wiki/Live_for_Speed) template to create a basic [InSim](https://en.lfsmanual.net/wiki/InSim).
 
-This is the best Live for Speed InSim Base, with handlers for everything.
+## Functions
+💻 This project was come with concept to make easily to create InSim just with a few clicks.
 
-  - Handler for almost of all packets
-  - The best structure for InSimDotNet
-  - Beautiful
+- Packet handling for almost all which is necessary to create an basic InSim
+- A nice structure, preparing developer to code using a default struct
 
-## Help Me
-🏗️ If you finded a bug or something like, put in [Issues](https://github.com/MrSev7en/lfs-insim-base/issues), detail then, and tell me everything thats happen.
+## Issues
+🏗️ Collaborate with me sending [issues](https://github.com/MrSev7en/lfs-insim-base/issues)
 
-## Social Medias
+## Socials
 🐦 Twitter: [@MrSev7en](https://twitter.com/MrSev7en/)
+<br>
+📷 Instagram: [@MrSev7en](https://instagram.com/MrSev7en/)
 
 ## License
-This project particularly don't have restrictions. Community help will be great, if you wanna help me with your modification, send in [Pull requests](https://github.com/MrSev7en/lfs-insim-base/pulls).
-
-But the license is [MIT](https://github.com/MrSev7en/lfs-insim-base/blob/master/LICENSE), check clicking in link.
-
-If you wanna share this, please give me copyright.
+This project was based on [MIT](https://github.com/MrSev7en/lfs-insim-base/blob/master/LICENSE) license.
