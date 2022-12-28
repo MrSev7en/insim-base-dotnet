@@ -1,4 +1,5 @@
-﻿using InSimDotNet.Helpers;
+using InSimDotNet.Helpers;
+using System;
 using System.Collections.Generic;
 
 namespace InSim_Base.Source.Handshake
