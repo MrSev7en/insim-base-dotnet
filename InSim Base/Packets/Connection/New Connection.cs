@@ -1,4 +1,4 @@
-﻿using InSim_Base.Source.Getaway;
+﻿using InSim_Base.Source.Gateway;
 using InSim_Base.Source.Handshake;
 using InSim_Base.Source.Output;
 using InSimDotNet;
