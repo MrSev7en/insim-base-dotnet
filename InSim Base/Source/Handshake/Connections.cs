@@ -54,5 +54,16 @@ namespace InSim_Base.Source.Handshake
         {
             return Math.Abs(X - Conn.X) <= offset && Math.Abs(Y - Conn.Y) <= offset && Math.Abs(Z - Conn.Z) <= offset;
         }
+
+        public Connections[] Next(int offset)
+        {
+            var next = new List<Connections>();
+
+            foreach (var Conn in _connections.Values)
+                if (Closer(Conn, offset))
+                    next.Add(Conn);
+
+            return next.ToArray();
+        }
     }
 }
