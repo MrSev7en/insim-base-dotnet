@@ -43,5 +43,15 @@ namespace InSim_Base.Source.Handshake
         {
             return (long)MathHelper.SpeedToMph(Speed);
         }
+
+        public bool Closer(int x, int y, int z, int offset)
+        {
+            return Math.Abs(X - x) <= offset && Math.Abs(Y - y) <= offset && Math.Abs(Z - z) <= offset;
+        }
+
+        public bool Closer(Connections Conn, int offset)
+        {
+            return Math.Abs(X - Conn.X) <= offset && Math.Abs(Y - Conn.Y) <= offset && Math.Abs(Z - Conn.Z) <= offset;
+        }
     }
 }
