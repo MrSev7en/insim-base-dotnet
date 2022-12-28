@@ -60,7 +60,7 @@
     <Compile Include="Packets\Message\Message Output.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Source\Getaway\Interface.cs" />
+    <Compile Include="Source\Gateway\Interface.cs" />
     <Compile Include="Source\Handshake\Connections.cs" />
     <Compile Include="Source\Handshake\Players.cs" />
     <Compile Include="Source\Headers\INI.cs" />
