@@ -35,12 +35,12 @@ namespace InSim_Base.Source.Handshake
 
         public long Speed = new long();
 
-        public long Speed_KMH()
+        public long KMH()
         {
             return (long)MathHelper.SpeedToKph(Speed);
         }
 
-        public long Speed_MPH()
+        public long MPH()
         {
             return (long)MathHelper.SpeedToMph(Speed);
         }
