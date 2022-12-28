@@ -1,5 +1,5 @@
 using InSim_Base.Handler.Commands;
-using InSim_Base.Source.Getaway;
+using InSim_Base.Source.Gateway;
 using InSim_Base.Source.Handshake;
 using System;
 
