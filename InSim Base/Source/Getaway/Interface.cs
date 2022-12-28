@@ -1,4 +1,4 @@
-﻿using InSim_Base.Source.Output;
+using InSim_Base.Source.Output;
 using InSimDotNet;
 using InSimDotNet.Packets;
 
