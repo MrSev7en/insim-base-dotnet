@@ -2,7 +2,7 @@
 using InSimDotNet;
 using InSimDotNet.Packets;
 
-namespace InSim_Base.Source.Getaway
+namespace InSim_Base.Source.Gateway
 {
     public class Interface
     {
