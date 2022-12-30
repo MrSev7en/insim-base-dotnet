@@ -32,7 +32,7 @@ namespace InSim_Base.Packets.Car
                     }
                 }
             }
-            catch (InSimException IEx) { Logger.Error(IEx.Message, Logger.Types.NCN); }
+            catch (InSimException IEx) { Logger.Error(IEx.Message, Logger.Types.MCI); }
         }
     }
 }
