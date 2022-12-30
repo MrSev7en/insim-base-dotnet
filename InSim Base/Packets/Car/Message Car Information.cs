@@ -13,8 +13,7 @@ namespace InSim_Base.Packets.Car
             {
                 foreach (CompCar car in MCI.Info)
                 {
-                    Players NPL;
-                    if (Players._players.TryGetValue(car.PLID, out NPL))
+                    if (Players._players.TryGetValue(car.PLID, out Players NPL))
                     {
                         foreach (Connections Conn in Connections._connections.Values)
                         {
