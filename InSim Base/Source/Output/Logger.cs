@@ -11,6 +11,7 @@ namespace InSim_Base.Source.Output
             NCN,
             NCI,
             CNL,
+            MCI,
             MTC,
             BTN,
             BFN,
