@@ -47,12 +47,12 @@ namespace InSim_Base.Source.Handshake
 
         public bool Closer(int x, int y, int z, int offset = 50)
         {
-            return Math.Abs(X - x) <= offset && Math.Abs(Y - y) <= offset && Math.Abs(Z - z) <= offset;
+            return Math.Abs((X * 65536) - (x * 65536)) <= offset && Math.Abs((Y * 65536) - (y * 65536)) <= offset && Math.Abs((Z * 65536) - (z * 65536)) <= offset;
         }
 
         public bool Closer(Connections Conn, int offset = 50)
         {
-            return Math.Abs(X - Conn.X) <= offset && Math.Abs(Y - Conn.Y) <= offset && Math.Abs(Z - Conn.Z) <= offset;
+            return Math.Abs((X * 65536) - (Conn.X * 65536)) <= offset && Math.Abs((Y * 65536) - (Conn.Y * 65536)) <= offset && Math.Abs((Z * 65536) - (Conn.Z * 65536)) <= offset;
         }
 
         public Connections[] Next(int offset = 50)
